@@ -1,0 +1,12 @@
+<div class="m-32 drop-shadow-lg">
+<p style="color: green"><%= notice %></p>
+
+<%= render @book %>
+
+<div>
+  <%= link_to "Edit Book", edit_book_path(@book), class: "px-4 py-3 font-medium bg-cyan-300 text-neutal-900 rounded inline-flex items-center cursor-pointer hover:bg-orange-400 focus:ring-4 ring-0 focus:ring-orange-100" %> |
+  <%= link_to "Back to books", books_path, class: "px-4 py-3 font-medium bg-cyan-300 text-neutal-900 rounded inline-flex items-center cursor-pointer hover:bg-orange-400 focus:ring-4 ring-0 focus:ring-orange-100" %>
+
+  <%= button_to "Delete Book", @book, method: :delete, class: "mt-6 px-4 py-3 font-medium bg-cyan-300 text-neutal-900 rounded inline-flex items-center cursor-pointer hover:bg-red-600 focus:ring-4 ring-0 focus:ring-orange-100" %>
+</div>
+</div>
