@@ -14,7 +14,7 @@ Rails search app is a realtime search app that produces search results as users 
 
 4. Seed your local database. rails db:seed
 
-5. Run ./bin/dev or rails sto start your app at http://localhost:3000.
+5. Run ./bin/dev or rails s to start your app at http://localhost:3000.
 
 ## Author
 
