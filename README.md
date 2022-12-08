@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Search App
 
-Things you may want to cover:
+Rails search app is a realtime search app that produces search results as users type. Created with Ruby on Rails, Stimulus Js and Tailwind css. 
 
-* Ruby version
+## Get Started
 
-* System dependencies
+1. Clone project repository.
 
-* Configuration
+2. Install ruby dependencies. bundle install
 
-* Database creation
+3. Setup your local database. rails db:setup
 
-* Database initialization
+4. Seed your local database. rails db:seed
 
-* How to run the test suite
+5. Run ./bin/dev or rails sto start your app at http://localhost:3000.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Author
 
-* Deployment instructions
+👤 **Jerry Owusu**
 
-* ...
+- Github : [@jerryowusu](https://github.com/jerryowusu)
+- Twitter: [@jerry owusu11](https://twitter.com/jerryowusu1)
+- LinkedIn : [@Jeremiah Owusu](https://www.linkedin.com/in/jerry-owusu/)
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/jerryowusu/rails_search_app/issues).
+
+## Contact
+
+Created by [@jerryowusu](https://github.com/jerryowusu) - feel free to contact me!
